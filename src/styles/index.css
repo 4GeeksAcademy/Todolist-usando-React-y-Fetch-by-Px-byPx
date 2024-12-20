@@ -1,12 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family:'Courier New', Courier, monospace;
+    color: #d8b7b7;
+    font-weight: 100;
+}
 
-/* 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #4d4d4d;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
 
-*/
+ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ededed;
+    font-size: 1.2rem;
+}
+
+.task-counter {
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
